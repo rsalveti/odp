@@ -3,7 +3,7 @@
 set -e
 
 prepare_tarball() {
-	export package=opendataplane
+	export package=opendataplane-linux
 
 	pushd ${ROOT_DIR}
 

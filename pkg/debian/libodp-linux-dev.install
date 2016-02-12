@@ -1,0 +1,7 @@
+usr/include/*.h
+usr/include/odp/*.h
+usr/include/odp/api/*
+usr/include/odp/plat/*
+usr/lib/*/libodp-linux.so
+usr/lib/*/libodp-linux.a
+usr/lib/*/pkgconfig/libodp-linux*

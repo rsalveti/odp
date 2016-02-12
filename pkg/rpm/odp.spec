@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier:     BSD-3-Clause
 
-Name: opendataplane
+Name: opendataplane-linux
 Version: 1.4
 Release: 1
 Packager: anders.roxell@linaro.org
