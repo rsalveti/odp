@@ -333,7 +333,7 @@ AC_CONFIG_FILES([Makefile
 		 helper/Makefile
 		 helper/test/Makefile
 		 pkgconfig/libodplinux.pc
-		 pkgconfig/libodphelper.pc
+		 pkgconfig/libodplinuxhelper.pc
 		 scripts/Makefile
 		 test/Makefile
 		 test/api_test/Makefile

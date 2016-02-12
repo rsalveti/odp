@@ -1,6 +1,6 @@
 include $(top_srcdir)/platform/@with_platform@/Makefile.inc
 LIB   = $(top_builddir)/lib
-LDADD = $(LIB)/libodplinux.la $(LIB)/libodphelper.la
+LDADD = $(LIB)/libodplinux.la $(LIB)/libodplinuxhelper.la
 AM_CFLAGS += \
 	-I$(srcdir) \
 	-I$(top_srcdir)/example \

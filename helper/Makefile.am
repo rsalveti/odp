@@ -1,7 +1,7 @@
 include $(top_srcdir)/platform/@with_platform@/Makefile.inc
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = $(top_builddir)/pkgconfig/libodphelper.pc
+pkgconfig_DATA = $(top_builddir)/pkgconfig/libodplinuxhelper.pc
 
 LIB   = $(top_builddir)/lib
 AM_CFLAGS  = -I$(srcdir)/include
@@ -28,10 +28,10 @@ noinst_HEADERS = \
 		 $(srcdir)/odph_lineartable.h \
 		 $(srcdir)/odph_list_internal.h
 
-__LIB__libodphelper_la_SOURCES = \
+__LIB__libodplinuxhelper_la_SOURCES = \
 					linux.c \
 					ring.c \
 					hashtable.c \
 					lineartable.c
 
-lib_LTLIBRARIES = $(LIB)/libodphelper.la
+lib_LTLIBRARIES = $(LIB)/libodplinuxhelper.la
