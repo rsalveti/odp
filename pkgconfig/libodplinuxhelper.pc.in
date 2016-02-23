@@ -3,9 +3,9 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: libodphelper
+Name: libodplinuxhelper
 Description: Helper for the ODP packet processing engine
 Version: @VERSION@
-Libs: -L${libdir} -lodphelper
+Libs: -L${libdir} -lodplinuxhelper
 Libs.private:
 Cflags: -I${includedir}

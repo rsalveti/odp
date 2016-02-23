@@ -3,7 +3,7 @@
 set -e
 
 prepare_tarball() {
-	export package=opendataplane
+	export package=opendataplanelinux
 
 	pushd ${ROOT_DIR}
 	./bootstrap

@@ -1,14 +1,14 @@
 LIB   = $(top_builddir)/lib
 
-dist_pkgdata_DATA = $(LIB)/libodp.la
+dist_pkgdata_DATA = $(LIB)/libodplinux.la
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = $(top_builddir)/pkgconfig/libodp.pc
+pkgconfig_DATA = $(top_builddir)/pkgconfig/libodplinux.pc
 
-.PHONY: pkgconfig/libodp.pc
+.PHONY: pkgconfig/libodplinux.pc
 
 VPATH = $(srcdir) $(builddir)
-lib_LTLIBRARIES = $(LIB)/libodp.la
+lib_LTLIBRARIES = $(LIB)/libodplinux.la
 
 AM_LDFLAGS += -version-number '$(ODP_LIBSO_VERSION)'
 
