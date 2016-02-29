@@ -334,7 +334,7 @@ AC_CONFIG_FILES([Makefile
 		 helper/Makefile
 		 helper/test/Makefile
 		 pkgconfig/libodp-linux.pc
-		 pkgconfig/libodphelper.pc
+		 pkgconfig/libodphelper-linux.pc
 		 scripts/Makefile
 		 test/Makefile
 		 test/performance/Makefile

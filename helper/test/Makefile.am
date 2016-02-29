@@ -25,7 +25,7 @@ bin_PROGRAMS = $(EXECUTABLES) $(COMPILE_ONLY)
 
 dist_odp_chksum_SOURCES = odp_chksum.c
 dist_odp_thread_SOURCES = odp_thread.c
-odp_thread_LDADD = $(LIB)/libodphelper.la $(LIB)/libodp-linux.la
+odp_thread_LDADD = $(LIB)/libodphelper-linux.la $(LIB)/libodp-linux.la
 dist_odp_process_SOURCES = odp_process.c
-odp_process_LDADD = $(LIB)/libodphelper.la $(LIB)/libodp-linux.la
+odp_process_LDADD = $(LIB)/libodphelper-linux.la $(LIB)/libodp-linux.la
 dist_odp_table_SOURCES = odp_table.c
