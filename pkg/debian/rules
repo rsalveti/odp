@@ -14,7 +14,8 @@ override_dh_autoreconf:
 	dh_autoreconf ./bootstrap
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-static
+	dh_auto_configure -- --enable-static --enable-test-vald \
+		--enable-test-cpp --enable-test-helper
 
 .PHONY: override_dh_strip
 override_dh_strip:
